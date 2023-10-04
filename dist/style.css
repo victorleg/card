@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-size: 1.2rem;
+  --font-weight: 400;
+  --background-color: #fff;
+  --text-color: #222;
+  --box-shadow:  0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+:root {
+  font-family: 'Sora', sans-serif;
+}
+
+body {
+  --background-color: #FAFAF9;
+}
+
+.card {
+  --background-color: #FFF;
+}
+
+.card-tag {
+  --background-color: #E6D6FC;
+  --text-color: #883AE1;
+  --font-size: 0.625rem;
+  --font-weight: 700;
+}
+
+.card-title {
+  --font-size: 1.125rem;
+  --font-weight: 600;
+}
+
+.card-text {
+  --font-size: 0.875rem;
+  --text-color: #20293A;
+  --font-weight: 300;
+}
+
+.card-author {
+  --font-size: 0.75rem;
+  --text-color: #20293A;
+}
+
+*  {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background-color);
+}
+
+.card {
+  background: var(--background-color);
+  width: 368px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  border-radius: 16px
+}
+
+.card-body, .card-footer {
+  padding: 16px 16px 20px 16px;
+}
+
+.card-title, .card-tag, .card-text, .card-author {
+  font-size : var(--font-size);
+  font-weight : var(--font-weight);
+  color: var(--text-color);
+}
+
+.card-tag {
+  background: var(--background-color);
+  padding: 6px 16px;
+  margin: 16px 0;
+  border-radius: 16px;
+  width: min-content;
+}
+
+.card-text {
+  margin: 6px 0 20px 0;
+}
+
+.card-footer {
+  border-top: 1px solid #6C727F;
+  padding-top: 20px;
+}
